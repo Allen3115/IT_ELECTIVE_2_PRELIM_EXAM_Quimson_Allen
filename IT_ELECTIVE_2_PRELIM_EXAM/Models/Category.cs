@@ -19,11 +19,8 @@ public class Category
     }
 
     // EXERCISE 4: This constructor should set Name and Description from parameters
-    // Currently it does nothing - fix it!
     public Category(string name, string description)
     {
-        Name = name;
-        Description = description;
     }
 
     public override string ToString()
