@@ -20,9 +20,18 @@ public class Meal
 
     // EXERCISE 1: Fix these stub properties to properly get/set from private fields
     // After fixing, make the fields above PRIVATE
-    public string Name { get => ""; set { } }
-    public string Category { get => ""; set { } }
-    public string Area { get => ""; set { } }
+    public string Name { 
+        get { return name; }
+        set { name = value; }
+    }
+    public string Category { 
+        get { return category; } 
+        set { category = value; }
+    }
+    public string Area { 
+        get { return area; }
+        set { area = value; }
+    }
 
     public Meal()
     {
