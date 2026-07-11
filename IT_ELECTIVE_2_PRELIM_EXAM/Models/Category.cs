@@ -11,7 +11,6 @@ public class Category
     public string Description { get; set; } = null!;
 
     // EXERCISE 3: This constructor should initialize Name and Description to ""
-    // Currently it does nothing - fix it!
     public Category()
     {
         Name = "";
@@ -21,6 +20,8 @@ public class Category
     // EXERCISE 4: This constructor should set Name and Description from parameters
     public Category(string name, string description)
     {
+        Name = name;
+        Description = description;
     }
 
     public override string ToString()
